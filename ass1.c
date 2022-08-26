@@ -6,7 +6,7 @@ int main()
     char str[40];
     fgets(str,40,stdin);
     for(;str[i]!='\0'&&str[i]!='\n';i++);
-    printf("Length is %d\n",i-1);
+    printf("Length is %d\n",i);
     getch();
     return 0;
     
